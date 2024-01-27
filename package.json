@@ -8,7 +8,7 @@
     "cypress:open:firexof": "npx cypress run -b firefox --headed",
     "cypress:run:chrome": "npx cypress run -b chrome",
     "cypress:run:firefox": "npx cypress run -b firefox",
-    "cypress:open:chrome:spec": "npx cypress run -b chrome --spec cypress/e2e/",
+    "cypress:open:chrome:alltests": "npx cypress run -b chrome --spec cypress/e2e/",
     "cypress:open": "npx cypress open"
   },
   "author": "Kamil Barszczewski",
