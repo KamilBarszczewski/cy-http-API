@@ -9,7 +9,8 @@
     "cypress:run:chrome": "npx cypress run -b chrome",
     "cypress:run:firefox": "npx cypress run -b firefox",
     "cypress:open:chrome:alltests": "npx cypress run -b chrome --spec cypress/e2e/",
-    "cypress:open": "npx cypress open"
+    "cypress:open": "npx cypress open",
+    "githubpages:action": "cypress run --headless --browser chrome"
   },
   "author": "Kamil Barszczewski",
   "license": "ISC",
